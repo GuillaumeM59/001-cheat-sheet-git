@@ -1,6 +1,35 @@
-p
+body
 {
-  font-family: fantasy;
+  background-color: #E5B696;
+}
+header
+{
+  background-color: #7F6553;
+  font-family: cursive;
+  display: inline-block;
+  width: 94%;
+  border-radius: 15px;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+header p
+{
+  text-align: center;
+  font-family: inherit;
+}
+
+section
+{
+  width: 50%;
+  background-color: #40332A;
+  border-radius: 10px;
+  padding: 2px 2px 2px 2px;
+
+}
+section p
+{
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
-  color: blue;
+  color: #FFCAA7;
 }
