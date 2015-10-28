@@ -5,30 +5,68 @@
     <title>Cheat sheet GIT</title>
   </head>
   <body>
-    <h1> Cheat sheel git </h1>
-
+    <h1> Cheat sheet GIT </h1>
+    <h2>Premiers pas sur GIT</h2>
     <p>* init   initialise git dans ton nouveau projet.</p>
     <p>* status  permet de voir les modifs non suivies et celles qui le sont deja.</p>
     <p>* add  #fichier ou --all   ajoute le fichier au suivi, --all les ajoute tous.</p>
-    * commit -m "message"  enregistre toutes les modifications (en vert dans statut) et lui associe un numero unique et un message de description.
-    * log  voir l'historique des commits.
-    * diff  voir les changements depuis le dernier commit.
-    * checkout # revenir visuellement au commit # .
-    * checkout master revenir au dernier commit ( apres checkout #).
-    * checkout # fichier  revenir comme avant.
+    <h2>Let's commit!</h2>
+    <p>* commit -m "message"  enregistre toutes les modifications (en vert dans statut) et lui associe un numero unique et un message de description.</p>
+    <p>       * log  voir l'historique des commits.    </p>
+    <p>
+      * diff  voir les changements depuis le dernier commit.
+    </p>
+    <p>
+      * checkout # revenir visuellement au commit # .
+    </p>
+    <p>
+      * checkout master revenir au dernier commit ( apres checkout #).
+    </p>
+    <p>
+* checkout # fichier  revenir comme avant.
+    </p>
+    <p>
     * revert #   annule le commit #.
+    </p>
+    <p>
     * reset retour definit d'un commit en arrière.
-    * reset HEAD ^^^...   retour definitif en arrière d'autant de commit que de ^.
+    </p>
+    <p>
+* reset HEAD ^^^...   retour definitif en arrière d'autant de commit que de ^.
+    </p>
+    <h2> Parlons des branches</h2>
+    <p>
     * branch   voir dans quel branche on se trouve.
-    * branch #nom   crée une branche nommée #nom.
+    </p>
+    <p>
+  * branch #nom   crée une branche nommée #nom.
+    </p>
+    <p>
     * checkout #nom  aller sur la branche #nom.
-    * push #hôte #branche   envoie la dernière version à l'hôte #hôte sur la #branche.
-    * pull #destination #branche   recupère la dernière version et la met sur votre machine.
+    </p>
+    <p>
     * merge #branche  fusionne la branche où l'on est avec #branche.
-    * clone #adresse  crée une copie du projet #adresse.
-    * blame #fichier  affiche les modifications concernant ce fichier.
-    * stash   met les dernière modifications en memoire tampon permettant de faire un commit n'ayant aucun rapport.
-    * stash pop  revient exactement comme au moment du stash (en conservant les commit réalisé entre).
+    </p>
+    <h2>Partageons!</h2>
+    <p>
+  * push #hôte #branche   envoie la dernière version à l'hôte #hôte sur la #branche.
+    </p>
+    <p>
+    * pull #destination #branche   recupère la dernière version et la met sur votre machine.
+    </p>
 
+    <p>
+    * clone #adresse  crée une copie du projet #adresse.
+    </p>
+    <p>
+    * blame #fichier  affiche les modifications concernant ce fichier.
+    </p>
+    <h2>Faisons une pause...</h2>
+    <p>
+    * stash   met les dernière modifications en memoire tampon permettant de faire un commit n'ayant aucun rapport.
+    </p>
+    <p>
+    * stash pop  revient exactement comme au moment du stash (en conservant les commit réalisé entre).
+    </p>
   </body>
 </html>
