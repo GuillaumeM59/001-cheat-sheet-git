@@ -8,10 +8,9 @@ h2
   text-align: center;
   color: #BF987D;
 }
-header p, section h2, section p
+p
 {
-  font-family: 'Dancing Script', cursive;
-
+  font-family: "Dancing Script", cursive;
 }
 header
 {
@@ -28,7 +27,6 @@ header
 header p
 {
   text-align: center;
-  font-family: inherit;
 }
 
 section
@@ -36,7 +34,6 @@ section
   width: 50%;
   background-color: #40332A;
   border-radius: 10px;
-
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 1px;
@@ -47,8 +44,16 @@ section
 section p
 {padding-left: 2%;
   padding-right: 2%;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #FFCAA7;
+  line-height: 1.5;
+}
+section span
+{ font-family: Arial;
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px 5px 0 0;
 }
 .blocpair
 {
