@@ -3,6 +3,11 @@ body
   background-color: #E5B696;
 }
 
+h1
+{
+  text-align: center;
+}
+
 h2
 {
   text-align: center;
@@ -27,6 +32,24 @@ header
 header p
 {
   text-align: center;
+}
+
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  background-color: #7F6553;
+  border: 2px solid black;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+}
+a
+{
+  text-decoration: none;
+  color: #FFCAA7;
 }
 
 section
