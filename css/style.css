@@ -1,7 +1,8 @@
-body
+ body
 {
   background-color: #E5B696;
 }
+
 
 h1
 {
@@ -29,10 +30,18 @@ header
   margin-bottom: 5px;
 
 }
+header img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
 header p
 {
   text-align: center;
 }
+
 
 
 #menu {
@@ -45,12 +54,17 @@ header p
   border: 2px solid black;
   border-radius: 20px 0 0 20px;
   border-right: none;
+  list-style: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 a
 {
   text-decoration: none;
   color: #FFCAA7;
 }
+
+
 
 section
 {
@@ -61,7 +75,8 @@ section
   padding-bottom: 2px;
   margin-top: 1px;
   position:relative;
-  left: 3%;
+  left: 13%;
+  text-align: justify;
 
 }
 section p
@@ -77,9 +92,10 @@ section span
   color: white;
   border: 1px solid grey;
   border-radius: 5px 5px 0 0;
+  margin-right: 2px;
 }
 .blocpair
 {
   position: relative;
-  left: 23%;
+  left: 33%;
 }
