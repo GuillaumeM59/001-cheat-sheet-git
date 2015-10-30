@@ -3,7 +3,6 @@
   background-color: #E5B696;
 }
 
-
 h1
 {
   text-align: center;
@@ -42,8 +41,6 @@ header p
   text-align: center;
 }
 
-
-
 #menu {
   position: fixed;
   right: 0;
@@ -63,8 +60,6 @@ a
   text-decoration: none;
   color: #FFCAA7;
 }
-
-
 
 section
 {
