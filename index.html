@@ -14,9 +14,7 @@
       Les Cheat-Sheet à la Guytou
     </p>
   </header>
-
   <nav>
-
     <ul id="menu">
       <li> <a href="#premierspas">Premiers pas</a></li>
       <li><a href="#letscommit">Commit</a></li>
@@ -24,52 +22,52 @@
       <li><a href="#transfert">Partages</a></li>
       <li><a href="#brake">Pause</a></li>
     </ul>
-
   </nav>
-
-
-
-  <section id="premierspas">
-
-    <h2>Premiers pas sur GIT</h2>
-    <p><span>* init </span>  initialise git dans ton nouveau projet. <br/><span>* status </span>  permet de voir les modifs non suivies et celles qui le sont deja.<br/><span>* add  #fichier ou --all </span> ajoute le fichier au suivi, --all les ajoute tous.</p>
-  </section>
-  <section id="letscommit" class="blocpair">
-    <h2>Let's commit!</h2>
-    <p><span >* commit -m "message" </span>  enregistre toutes les modifications (en vert dans statut) et lui associe un numero unique et un message de description.<br/>
-      <span>* log </span>  voir l'historique des commits.<br/><span>* diff </span> voir les changements depuis le dernier commit.
-      <br/><span>* checkout #  </span> revenir visuellement au commit #.
-      <br/><span>* checkout master </span> revenir au dernier commit ( apres checkout #).
-      <br/><span>* checkout #fichier </span>  revenir comme avant.
-      <br/><span>* revert # </span> annule le commit #.
-      <br/><span>* reset </span> retour definit d'un commit en arrière.
-      <br/><span>* reset HEAD ^^^...  </span>  retour definitif en arrière d'autant de commit que de ^.
-    </p>
-  </section>
-
-  <section id="branches">
-    <h2> Parlons des branches</h2>
-    <p><span>* branch </span>  voir dans quel branche on se trouve.
-      <br/><span>* branch #nom </span>  crée une branche nommée #nom.
-      <br/><span>* checkout #nom </span> aller sur la branche #nom.
-      <br/><span>* merge #branche </span> fusionne la branche où l'on est avec #branche.
-      </p>
-  </section>
-
-  <section id="transfert" class="blocpair">
-    <h2>Partageons!</h2>
-    <p><span>* push #hôte #branche </span>   envoie la dernière version à l'hôte #hôte sur la #branche.
-    <br/><span>* pull #destination #branche </span>   recupère la dernière version et la met sur votre machine.
-    <br/><span>* clone #adresse </span> crée une copie du projet #adresse.
-    <br/><span>* blame #fichier </span> affiche les modifications concernant ce fichier.
-    </p>
-  </section>
-
-  <section id="brake">
-    <h2>Faisons une pause...</h2>
-    <p><span>* stash </span>  met les dernière modifications en memoire tampon permettant de faire un commit n'ayant aucun rapport.
-    <br/><span>* stash pop </span>  revient exactement comme au moment du stash (en conservant les commit réalisé entre).
-    </p>
-  </section>
+    <article>
+    <section id="premierspas">
+      <h2>Premiers pas sur GIT</h2>
+      <ul>
+        <li><span>* init </span>  initialise git dans ton nouveau projet.</li>
+        <li><span>* status </span>  permet de voir les modifs non suivies et celles qui le sont deja.</li>
+        <li><span>* add  #fichier ou --all </span> ajoute le fichier au suivi, --all les ajoute tous.</li>
+      </ul>
+    </section>
+    <section id="letscommit" class="blocpair">
+      <h2>Let's commit!</h2>
+      <ul>
+        <li><span >* commit -m "message" </span>  enregistre toutes les modifications (en vert dans statut) et lui associe un numero unique et un message de description.</li>
+        <li><span>* log </span>  voir l'historique des commits.</li>
+        <li><span>* diff </span> voir les changements depuis le dernier commit.</li>
+        <li><span>* checkout #  </span> revenir visuellement au commit #.</li>
+        <li><span>* checkout master </span> revenir au dernier commit ( apres checkout #).</li>
+        <li><span>* checkout #fichier </span>  revenir comme avant.</li>
+        <li><span>* revert # </span> annule le commit #.</li>
+        <li><span>* reset </span> retour definit d'un commit en arrière.</li>
+        <li><span>* reset HEAD ^^^...  </span>  retour definitif en arrière d'autant de commit que de ^.</li>
+      </ul>
+    </section>
+    <section id="branches">
+      <h2> Parlons des branches</h2>
+      <ul><li><span>* branch </span>  voir dans quel branche on se trouve.</li>
+        <li><span>* branch #nom </span>  crée une branche nommée #nom.</li>
+        <li><span>* checkout #nom </span> aller sur la branche #nom.</li>
+        <li><span>* merge #branche </span> fusionne la branche où l'on est avec #branche.</li>
+      </ul>
+    </section>
+    <section id="transfert" class="blocpair">
+      <h2>Partageons!</h2>
+      <ul><li><span>* push #hôte #branche </span>   envoie la dernière version à l'hôte #hôte sur la #branche.</li>
+        <li><span>* pull #destination #branche </span>   recupère la dernière version et la met sur votre machine.</li>
+        <li><span>* clone #adresse </span> crée une copie du projet #adresse.</li>
+        <li><span>* blame #fichier </span> affiche les modifications concernant ce fichier.</li>
+      </ul>
+    </section>
+    <section id="brake">
+      <h2>Faisons une pause...</h2>
+      <ul><li><span>* stash </span>  met les dernière modifications en memoire tampon permettant de faire un commit n'ayant aucun rapport.</li>
+        <li><span>* stash pop </span>  revient exactement comme au moment du stash (en conservant les commit réalisé entre).</li>
+      </ul>
+    </section>
+  </article>
 </body>
 </html>
