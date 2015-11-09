@@ -95,7 +95,8 @@ section pre {
 
 /* media queries device under 350px*/
 @media all and (max-device-width:350px) {
-  header {margin-top: 20%;}
+  body {font-size: 1em;}
+  header {margin-top: 10%;}
   header img, header h1 {display:inline-block;}
   nav {position: fixed; display: block;top: 0; left: 0;width: 100%;margin:0;padding: 0;
     border: 2px solid black;
@@ -103,6 +104,6 @@ section pre {
   }
   #menu {display:block;margin: 0;padding: 0;border: none;text-align: center;background: none;}
   #menu li {display: inline-block;border: 2px solid rgb(121, 56, 9); margin: auto;
-  margin-bottom: 1%;font-size: 0.8em;padding: 0;}
+  margin-bottom: 1%;font-size: 1.5em;padding: 0;}
   section{font-weight: 500}
 }
