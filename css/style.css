@@ -94,7 +94,7 @@ section pre {
 }
 
 /* media queries device under 350px*/
-@media all and (max-width:350px) {
+@media all and (max-device-width:350px) {
   body {font-size: 1em;}
   header {margin-top: 15%;}
   header img, header h1 {display:inline-block;}
